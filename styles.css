@@ -37,6 +37,14 @@ nav {
     scroll-margin-top: 150px;
 }
 
+#Section4 {
+    background-image: url("https://www.ucsd.edu/_resources/img/bg-orbs-1.jpg");
+    color: white;
+    display: inline-block;
+    width: 100%;
+    scroll-margin-top: 150px;
+}
+
 li {
     display: inline;
     float: left;
