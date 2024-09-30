@@ -1,8 +1,16 @@
+#top-logo {
+    max-width: 400px;
+}
+
 nav {
     position: sticky;
     top: 0;
     overflow: hidden;
     background-color: #FFFFFF;
+}
+
+#section-image {
+    max-width: 100%;
 }
 
 #Section1 {
@@ -14,6 +22,7 @@ nav {
 
 #Section2 {
     background-image: url("https://www.ucsd.edu/_resources/img/bg-orbs-1.jpg");
+    
     color: white;
     display: inline-block;
     width: 100%;
@@ -94,4 +103,29 @@ p {
     color: white;
     max-height: 500px;
     overflow: scroll;
+}
+
+@media screen and (max-width: 800px) {
+    nav {
+        display: none;
+    }
+
+    #top-logo {
+        max-width: 75%;
+    }
+
+    p {
+        font-size: 20px;
+    }
+
+    h2 {
+        font-size: 24px;
+    }
+
+    .wrapper {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 25px;
+        grid-auto-rows: minmax(100px, auto);
+      }
 }
